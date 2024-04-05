@@ -4,8 +4,15 @@
     Outros dispositivos
 */
 
-@media screen and (min-width> 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     section#login{
         width: 90vw;    
     }
+
+    #login #img{
+        position: relative;
+        left: 25%;
+        width: 350px;
+    }
+
 }
