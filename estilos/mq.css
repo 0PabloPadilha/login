@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login{
-        width: 90vw;    
+        width: 80vw;    
     }
 
     #login #img{
@@ -14,5 +14,16 @@
         left: 25%;
         width: 350px;
     }
+}
 
+@media screen and (min-width: 992px) {
+    section#login{
+        width: 70vw;    
+    }
+
+    #login #img{
+        position: relative;
+        margin: 20px auto;
+        width: 350px;
+    }
 }
