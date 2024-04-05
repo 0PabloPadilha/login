@@ -22,6 +22,7 @@
 }
 
 *{
+    font-family: 'noto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -92,7 +93,7 @@ p#dwn{
 
 #login #form{
     padding: 10px 0px;
-    padding-bottom: 225px;
+    padding-bottom: 55px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 15px;
@@ -101,4 +102,61 @@ p#dwn{
     border-bottom: 1px solid rgba(255, 255, 255, 0.18);
     display: block;
     background-color: #636D4A;
+}
+
+form input#entrar {
+    display: block;
+    font-size: 40px;
+    font-family: 'karimun', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    height: 40px;
+    color: var(--Verdee);
+    border-radius: 5px;
+    border: 0px;
+    background-color: white;
+    margin: auto;
+}
+
+form input#entrar:hover{
+    background-color: var(--Verde);
+}
+
+form input#manter, label#lembra{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 0px;
+    color: white;
+}
+
+table{
+    width: 160px;
+    height: 10%;
+    margin: -15px auto;
+    margin-top: -30px;
+}
+
+#lembra > p{
+    display:block;
+    font-family: 'noto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
+span.material-symbols-outlined {
+    font-size: 30px;
+}
+
+#clogin, #csenha{
+    display: inline-block;
+    margin: 5px;
+    color: var(--rosa);
+}
+#ilogin, #isenha{
+    display: inline-block;
+    transform: translate(0px, -10px);
+    height: 25px;
+    width: 75%;
+    color: var(--Verde);
 }

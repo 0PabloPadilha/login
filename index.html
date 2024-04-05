@@ -20,23 +20,29 @@
                 <p id="dwn"> Faça login para acessar sua conta.</p>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
-                        <label for="ilogin">
+                        <label id="clogin" for="ilogin">
                             <span class="material-symbols-outlined">
                                 person
                                 </span>
                         </label>
-                        <input type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email">
+                        <input size="25%" type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email">
                     </div>
                     <div class="campo">
-                        <label for="isenha">
+                        <label id="csenha" for="isenha">
                             <span class="material-symbols-outlined">
                                 key
                                 </span>
                         </label>
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" minlength="8">
+                        <input size="25%" type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" minlength="8">
                     </div>
-                    <input type="checkbox" name="lembrar" id="ilembrar"> Manter conectado <br>
-                    <input type="submit" value="Entrar">
+
+                    <table>
+                        <tr>                            
+                            <td><input type="checkbox" name="lembrar" id="manter"></td>
+                            <td><label id="lembra" for="manter"><p>Manter conectado</p></label>  </td>                          
+                        </tr>
+                    </table>
+                    <input id="entrar" type="submit" value="Entrar">
                 </form>
             </div>
         </section>
