@@ -56,7 +56,7 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     transition: width .3, height .3;
-    transition-timing-function: ease;
+    transition-timing-function: ea;
 }
 
 #login #img{
@@ -87,7 +87,7 @@ p{
 p#dwn{
     font-size: 17px;
     font-weight: normal;
-    color: white;
+    color: var(--Verde);
 }
 
 #login #form{

@@ -27,3 +27,13 @@
         width: 350px;
     }
 }
+
+@media screen and (orientation: landscape) {
+    section#login{
+        height: 90vh;
+    }
+
+    #login #form{
+        padding-bottom: 55px;
+    }
+}
